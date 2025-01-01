@@ -49,7 +49,7 @@ Follow the steps provided in the attched video for deploying Azure Resources.
 
 ## Local APP Deployment
 
-1. Create a file .env in the `app/backend` and update the :
+1. Create a file .env in the `app/backend` and update the contents:
 
    ```shell
       AZURE_OPENAI_ENDPOINT=XXXXXX
