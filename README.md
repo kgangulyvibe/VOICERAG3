@@ -22,7 +22,6 @@ The `RTClient` in the frontend receives the audio input, sends that to the Pytho
 ### Local environment
 
 1. Install the required tools:
-   * [Azure Developer CLI](https://aka.ms/azure-dev/install)
    * [Node.js](https://nodejs.org/)
    * [Python >=3.11](https://www.python.org/downloads/)
       * **Important**: Python and the pip package manager must be in the path in Windows for the setup scripts to work.
@@ -31,7 +30,7 @@ The `RTClient` in the frontend receives the audio input, sends that to the Pytho
    * [Powershell](https://learn.microsoft.com/powershell/scripting/install/installing-powershell) - For Windows users only.
 
 2. Clone the repo (`git clone https://github.com/Azure-Samples/aisearch-openai-rag-audio`)
-3. Proceed to the next section to [deploy the app](#deploying-the-app).
+3. Proceed to the next section.
 
 ## Deploying the Azure Resources
 
