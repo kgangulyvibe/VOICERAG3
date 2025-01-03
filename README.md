@@ -2,7 +2,7 @@
 
 This repo contains an example of how to implement RAG support in applications that use voice as their user interface, powered by the GPT-4o realtime API for audio along with Azure AI search for RAG. This code is customized form of Azure-Samples(https://github.com/Azure-Samples/aisearch-openai-rag-audio)
 
-Video Link - 
+Video Link - https://www.youtube.com/watch?v=vCTWVPcI3C4
 
 
 ## Features
