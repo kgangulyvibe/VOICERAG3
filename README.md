@@ -2,9 +2,6 @@
 
 This repo contains an example of how to implement RAG support in applications that use voice as their user interface, powered by the GPT-4o realtime API for audio along with Azure AI search for RAG. This code is customized form of Azure-Samples(https://github.com/Azure-Samples/aisearch-openai-rag-audio)
 
-Video Link - https://www.youtube.com/watch?v=vCTWVPcI3C4
-
-
 ## Features
 
 * **Voice interface**: The app uses the browser's microphone to capture voice input, and sends it to the backend where it is processed by the Azure OpenAI GPT-4o Realtime API.
@@ -38,13 +35,13 @@ The `RTClient` in the frontend receives the audio input, sends that to the Pytho
 
 Follow the steps provided in the attched video for deploying Azure Resources.
 
-1. Create Azure OpenAI service in US East 2 region.
+1. Create Azure OpenAI service in US East 2 region (or Sweden Central).
 
-2. Deploy Realtime and Embedding models.
+2. Deploy Realtime and Embedding models (in US East 2 or Sweden Central).
 
 3. Create Azure Storage account and upload files in the container
 
-4. Create Azure AI Search Service in US East 2.
+4. Create Azure AI Search Service in US East 2 (because semantic search is enabled in US East 2).
 
 5. Import and Vectorize data using Azure AI Search service and Storage account.
 
